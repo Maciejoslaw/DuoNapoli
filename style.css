@@ -1,0 +1,174 @@
+body
+{
+    background-image: url("img/tlo.jpg");
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    max-width: 100%;
+    background-size: cover;
+}
+
+header
+{
+    max-width: 100%;
+    height: auto;
+}
+nav
+{
+    width: 20%;
+    float: left;
+    position: sticky;
+    top: 0;
+
+}
+.przycisk
+{
+    background-color: #910707;;
+    padding: 5px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+.przycisk:hover
+{
+    opacity: 40%;
+}
+#conteiner
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    text-align: center;
+}
+.reklama
+{
+    margin-top: 10px;
+}
+.reklama:hover
+{
+    opacity: 50%;
+}
+main
+{
+    background-color: black;
+    float: left;
+    width: 58%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px solid #e4821f;
+    font-weight: 400;
+}
+aside
+{
+    float: left;
+    width: 20%;
+}
+footer
+{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+img
+{
+    width: 100%;
+    height: auto;
+}
+a.tilelink
+{
+    color: white;
+    text-decoration: none;
+}
+button
+{
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e4821f;
+    color: greenyellow;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    width: 90%;
+}
+button:hover
+{
+    opacity: 30%;
+}
+/*Ustawienia mobilne*/
+@media only screen and (max-width: 1024px)
+{
+    header, nav, aside, footer
+    {
+        width: 100%;
+    }
+    .reklama
+    {
+        width: 33%;
+        float: left;
+    }
+    main
+    {
+        width: 98%;
+        margin-right: 0px;
+    }
+    .google-maps
+    {
+        width: 90% !important;
+    }
+
+    .cena
+    {
+        width: 59% !important;
+    }
+    .nazwa
+    {
+        width: 39% !important;
+    }
+}
+/*menu*/
+.nazwa
+{
+    float: left;
+    text-align: left;
+    width: 63%;
+    font-size: auto;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: 2%;
+    margin-right: auto;
+}
+.cena
+{
+    float: left;
+    text-align: center;
+    width: 34%; 
+    font-size: auto;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.opis
+{
+    width: 100%;
+    font-size: xx-small;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.naglowek
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 2px dotted #e4821f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
